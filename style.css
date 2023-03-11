@@ -1,0 +1,128 @@
+body *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+.title{
+    margin: 0;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.flex-title{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.step_2_black{
+    background-color: black;
+    height: 900px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Completed_projects{
+    margin-top: 176px;
+    width: 442px;
+    color: white;
+}
+
+.flexbox-list{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    margin-top: 42px;
+    width: 300px; 
+}
+
+.three{
+    margin-top: 34px;
+}
+
+.four{
+    margin-top: 34px;
+}
+
+.theme_nav{
+    display: flex;
+    margin-top: 107px;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.theme_nav_items{
+    margin-right: 60px;
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.slider{
+    width: 679px;
+    height: 482px;
+    margin: 30px auto;
+    overflow: hidden;
+    
+}
+
+.slider-line{
+    width: 1446px;
+    height: 482px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.slider-prev, .slider-next, .dot{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dots-wrapper{
+    margin-top: 92px;
+}
+
+.dot:hover{ background: gainsboro;}
+.dot::after{background: gainsboro;}
+
+.dot{
+    width: 20px;
+    height: 20px;
+    background: gray;
+    border-radius: 50%;
+    margin-left: 29px;
+    margin-right: 17px;
+}
+
+.active {background: gainsboro;}
+
+.activee{
+    color: #E3B873;
+    border-bottom: #E3B873 1px solid;
+}
